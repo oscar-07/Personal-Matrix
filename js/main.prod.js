@@ -2,8 +2,8 @@
 
 var element = document.querySelector("#canvas");
 var ctx = element.getContext('2d');
-var h = document.body.clientHeight;
 var w = document.body.clientWidth;
+var h = document.body.clientHeight;
 element.width = w;
 element.height = h;
 var position = Array(300).join(0).split("");
